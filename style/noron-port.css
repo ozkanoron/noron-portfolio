@@ -1,0 +1,95 @@
+h1,h2,h3,h4,h5,h6{ font-family: 'Antic';}
+body{font-family: 'Assistant';}
+p{font-size: 18px;}
+.container{width: 100% !important;}
+  a:hover{text-decoration: none;}
+.banner-title{ font-size: 50px;}
+.summ{ width: 70%; padding: 20px 0;}
+.noron-banner-inner{ text-align: left; margin-top:300px; padding-left: 150px;}
+.noron-banner{width: 100%; height: 650px; border: solid 1px transparent; border-top-color: #273036; box-shadow: 2px 2px 20px #d9d9d9;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23273036' fill-opacity='1' d='M0,0L60,21.3C120,43,240,85,360,128C480,171,600,213,720,202.7C840,192,960,128,1080,117.3C1200,107,1320,149,1380,170.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-size: cover;
+}
+
+.noron-aboutme{min-height: 600px;}
+.aboutme-title{text-align:center; margin-top: 50px; margin-bottom: 50px; position: relative;}
+.skill-box{width: 250px; height: 250px; float: left;}
+.skill-box{text-align: center; width: 250px; height: 250px;}
+.skill-box h1{ color: white; text-align: center; margin-top: 50%; font-size: 30px;}
+
+.css-box{ position: absolute; left: -20px; top: 480px; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%233595CF' d='M43,-62.6C51.6,-52.9,51.7,-34.9,56.1,-18.8C60.5,-2.7,69.3,11.3,66,21.4C62.7,31.5,47.3,37.7,34.2,44.1C21.2,50.6,10.6,57.4,-2.5,60.8C-15.5,64.1,-31.1,64.2,-41,56.7C-50.8,49.2,-55.1,34.2,-55.6,20.8C-56.1,7.4,-52.9,-4.4,-51.7,-19.5C-50.5,-34.6,-51.2,-53,-42.9,-62.8C-34.6,-72.6,-17.3,-73.8,-0.1,-73.7C17.2,-73.6,34.4,-72.3,43,-62.6Z' transform='translate(100 100)' /%3E%3C/svg%3E");}
+.js-box{ position: absolute; right: 150px; top: 300px;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23E8D44D' d='M46.4,-61.5C58.6,-54.9,66.2,-39.4,72.4,-22.9C78.6,-6.4,83.5,11.2,79.2,26.1C74.9,41.1,61.4,53.5,46.6,60.5C31.9,67.6,15.9,69.4,-1.2,71.1C-18.4,72.8,-36.9,74.5,-49.2,66.6C-61.6,58.8,-67.9,41.5,-74.1,23.8C-80.2,6.1,-86.2,-11.9,-80.5,-25.2C-74.9,-38.5,-57.6,-47,-42.3,-52.6C-26.9,-58.2,-13.5,-60.8,1.8,-63.2C17,-65.7,34.1,-68,46.4,-61.5Z' transform='translate(100 100)' /%3E%3C/svg%3E");}
+.html-box{ position: absolute; right: 350px; top: 50px;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23FF3300' d='M46.9,-34C62.6,-17.7,78.4,1.9,76,19.3C73.6,36.8,53,52.1,30.3,63.1C7.6,74,-17.2,80.6,-36.6,72.6C-56,64.6,-70,41.9,-70.1,21.6C-70.2,1.4,-56.4,-16.3,-42.5,-32.2C-28.5,-48,-14.2,-62,0.7,-62.6C15.6,-63.1,31.2,-50.2,46.9,-34Z' transform='translate(100 100)' /%3E%3C/svg%3E");}
+.python-box{ position: absolute; left: 50px; top: 50px;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23F1C21B' d='M42.6,-70.6C52.9,-67.8,57.4,-51.8,62.1,-37.8C66.8,-23.8,71.7,-11.9,70.4,-0.7C69.2,10.4,61.7,20.9,53.1,28.2C44.6,35.5,35,39.7,25.9,44.7C16.9,49.8,8.5,55.6,-2,59C-12.4,62.5,-24.9,63.6,-37.7,60.7C-50.5,57.9,-63.6,51.1,-72.4,40.3C-81.2,29.5,-85.7,14.8,-84.1,0.9C-82.6,-13,-74.9,-25.9,-66.7,-37.7C-58.5,-49.4,-49.6,-60,-38.4,-62.2C-27.2,-64.4,-13.6,-58.3,1.3,-60.5C16.1,-62.7,32.3,-73.3,42.6,-70.6Z' transform='translate(100 100)' /%3E%3C/svg%3E");}
+.jquery-box{ position: absolute; right: 600px; top: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23F79200' d='M43.6,-69.7C55.8,-68.4,64.7,-55.4,65.7,-41.9C66.7,-28.3,59.7,-14.2,58.4,-0.8C57,12.6,61.2,25.2,57.1,33.3C52.9,41.4,40.5,45,29.6,55.1C18.7,65.2,9.4,81.7,-1.9,85C-13.1,88.2,-26.2,78.1,-34.8,66.7C-43.4,55.3,-47.5,42.5,-56.3,31.2C-65.2,19.8,-78.8,9.9,-82.8,-2.3C-86.8,-14.5,-81.2,-29.1,-72.6,-40.9C-64,-52.7,-52.5,-61.8,-39.9,-63C-27.3,-64.1,-13.6,-57.4,1,-59.1C15.6,-60.9,31.3,-71.1,43.6,-69.7Z' transform='translate(100 100)' /%3E%3C/svg%3E");}
+.bootstrap-box{ position: absolute; right: 50px; top: 50px;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23533B78' d='M39.9,-67.8C48.7,-63.9,50.7,-47.2,57.6,-33.8C64.5,-20.3,76.2,-10.2,77.9,1C79.5,12.1,71.2,24.2,61.1,32C50.9,39.9,39.1,43.5,28.6,50.9C18.1,58.3,9.1,69.5,-3.1,74.9C-15.3,80.3,-30.6,79.9,-42.1,73.1C-53.7,66.3,-61.5,53.2,-70.1,39.9C-78.7,26.7,-88,13.3,-83.6,2.6C-79.2,-8.2,-61,-16.5,-49.8,-25.2C-38.7,-34,-34.5,-43.3,-27.4,-48.1C-20.2,-53,-10.1,-53.4,2.7,-58.1C15.5,-62.8,31,-71.7,39.9,-67.8Z' transform='translate(100 100)' /%3E%3C/svg%3E");}
+.django-box{position: absolute; right: 450px; top: 450px; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%230C4B33' d='M23.3,-34.2C31,-26.6,38.3,-20.7,49.4,-10.4C60.5,-0.1,75.4,14.6,71.7,22.6C68.1,30.6,46.1,31.8,31,39.7C16,47.5,8,62,-5,68.9C-18,75.8,-36.1,75.1,-43.8,64.9C-51.5,54.6,-48.9,34.8,-47.9,19.8C-46.9,4.8,-47.6,-5.4,-46.5,-17C-45.3,-28.6,-42.4,-41.4,-34.4,-48.9C-26.3,-56.3,-13.2,-58.2,-2.6,-54.6C7.9,-50.9,15.7,-41.7,23.3,-34.2Z' transform='translate(100 100)' /%3E%3C/svg%3E"); }
+.aboutme-content .col-sm-6{border: solid 1px black; min-height: 400px; position: relative;}
+.aboutme-content{background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23273036' fill-opacity='0.1' d='M0,96L48,128C96,160,192,224,288,240C384,256,480,224,576,202.7C672,181,768,171,864,186.7C960,203,1056,245,1152,234.7C1248,224,1344,160,1392,128L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E"); background-repeat: no-repeat; background-size: cover;}
+
+.admin-img{ width: 350px; height: auto; text-align: center; border: solid 1px transparent; margin: auto; padding-top: 25px;}
+.admin-img img{border-radius: 400px; box-shadow: 2px 2px 20px black; transform: scale(1.3);}
+
+.admin-text{padding: 80px 50px; }
+.noron-projects{width: 100%; min-height: 400px;  margin-bottom: 100px; }
+
+.projects-title{text-align: center; margin-bottom: 100px;}
+.font-size50px{font-size: 50px;}
+.noron-projects {display: flex; flex-flow: column;}
+
+.noron-projects {background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23D0E2FF' fill-opacity='0.5' d='M38,-68.6C44.3,-62.1,41.2,-42,48,-28.4C54.9,-14.7,71.7,-7.3,78.7,4C85.7,15.4,82.9,30.8,73,39.2C63.1,47.6,46,48.9,32.7,52.2C19.3,55.5,9.7,60.8,1.2,58.6C-7.2,56.4,-14.4,46.9,-23.1,40.9C-31.9,35,-42.2,32.7,-49.2,26.5C-56.1,20.2,-59.7,10.1,-62.4,-1.6C-65.1,-13.3,-67.1,-26.6,-62.4,-36.8C-57.8,-47.1,-46.7,-54.3,-35.2,-57.9C-23.7,-61.5,-11.8,-61.4,2,-64.9C15.8,-68.3,31.6,-75.2,38,-68.6Z' transform='translate(100 100)' /%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: 50% 10%; background-size: cover;}
+.projects-container .project{ min-height: 250px; padding: 5px 10px; }
+.project-inside{ min-height:250px; padding: 20px 20px; box-shadow: 2px 2px 20px rgba(0,0,0, 0.3); border-bottom: 2px solid transparent; }
+
+.project-link{border: solid 2px #273036; background: #273036; padding: 10px 30px; color: white; transition: all 0.2s; border-radius: 2px;}
+.project-link:hover{color: #273036; background: transparent; }
+.project-link::before{content: " ";background: red; }
+.project-link::after{content: " ";background: green; width: 100%;}
+.projects-container .project-inside{transition: all 0.2s; background: white;}
+.projects-container .project-inside:hover{ border-bottom-color: #273036; background: transparent;}
+.footer{width: 100%; height: 200px; border: solid 1px transparent; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23273036' fill-opacity='1' d='M0,160L1440,64L1440,320L0,320Z'%3E%3C/path%3E%3C/svg%3E"); background-repeat: no-repeat; background-size:cover; background-position: center;}
+.footer{text-align: center;}
+.footer-text{margin-top: 120px; color: white;}
+.noron-mission{ min-height: 500px; margin-bottom: 150px;}
+.noron-mission-body{display: flex;  flex-flow: row;  padding: 0; box-shadow: 2px 2px 15px rgba(0,0,0,0.2);}
+.noron-mission-body .col-sm-4:nth-child(1){border-left:solid 2px  #00264d; border-top: solid 2px #003366;  }
+.noron-mission-body .col-sm-4:nth-child(2){border-left:solid 2px #004080; border-right: solid 2px #004d99;  border-bottom:solid 2px #0059b3;}
+.noron-mission-body .col-sm-4:nth-child(3){border-top: solid 2px #0066cc; border-right:solid 2px #0073e6; }
+.noron-mission-body .col-sm-4{min-height: 400px; transition: all 0.2s;}
+.noron-mission-body .col-sm-4:hover{box-shadow: 2px 2px 15px rgba(0,0,0,0.2);}
+.noron-mission-title{text-align: center; margin-bottom: 50px;}
+.mission-icon{text-align: center; height: auto;}
+.mission-icon h1{font-size: 150px; color: #273036;}
+.mission-icon h3{font-weight: bold; color: #273036;}
+.mission-text{ padding: 10px 25px; min-height: 200px;}
+.mission-text li{font-size: 18px;}
+
+
+@media (max-width: 800px) {
+  .noron-mission-body {flex-flow: column;}
+  .skill-box{width: 50px; height: 50px; float: left;}
+  .skill-box{text-align: center; width: 120px; height: 120px;}
+  .skill-box h1{ color: white; text-align: center; margin-top: 50%; font-size: 15px;}
+  .banner-title{ font-size: 30px; height: 70px;}
+  .summ{ width: 100%; padding: 20px 0;}
+  .noron-banner-inner{ text-align: left; margin-top:100px; padding-left: 10px;}
+  .css-box{left: 0; top: 0;}
+  .js-box{left: 20%; top: 0;}
+  .html-box{left: 40%; top: 0;}
+  .bootstrap-box{left: 62%; top: 0;}
+
+  .jquery-box{left: 0%; top: 70%;}
+  .python-box{left: 20%; top: 70%;}
+  .django-box{left: 40%; top: 70%;}
+  .admin-text{padding: 40px 10px; }
+  .noron-mission-body .col-sm-4:nth-child(1){border-left:solid 2px  #00264d; border-top: solid 2px #003366;  }
+  .noron-mission-body .col-sm-4:nth-child(2){border-left:none; border-top:solid 2px #004080; border-right: solid 2px #004d99;  border-bottom:solid 2px #0059b3;}
+  .noron-mission-body .col-sm-4:nth-child(3){border-top:none; border-right:none;  border-left:solid 2px #0073e6;}
+  .admin-img{ width: 100%; height: auto; text-align: center; border: solid 1px transparent; margin: auto; padding-top: 25px;}
+  .admin-img img{border-radius: 400px; box-shadow: 2px 2px 20px black; transform: scale(1);}
+}
