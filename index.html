@@ -20,8 +20,11 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style/noron-port.css">
 
+    <link rel="stylesheet" href="style/noron-port.css">
+    <style>
+
+    </style>
   </head>
   <body>
 
@@ -246,6 +249,36 @@
 </div>
 
 
+
+<div class="noron-exercise">
+  <div class="container exercise-title ">
+      <h1 class="font-size50px">Form</h1>
+  </div>
+
+<div class="container">
+  <form class="" action="POST" method="post" data-netlify="true">
+    <div class="field">
+      <input type="text" name="name" id="name" value="" placeholder="Name">
+    </div> <br>
+    <div class="field">
+      <input type="email" name="email" id="email" value="" placeholder="Email">
+    </div> <br>
+    <div class="field">
+      <textarea name="name" rows="8" cols="80"></textarea>
+    </div> <br>
+    <div class="field">
+      <div class="" data-netlify-recaptcha="true">
+
+      </div>
+    </div>
+
+    <input type="submit" name="submit" value="Send a message">
+  </form>
+</div>
+
+</div>
+
+
 <div class="footer">
   <p class="footer-text">Created By Ozkan Kurun</p>
 </div>
@@ -263,6 +296,7 @@
     var rellax = new Rellax('.rellax');
 
     AOS.init();
+
 
 </script>
 
