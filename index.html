@@ -23,7 +23,7 @@
 
     <link rel="stylesheet" href="style/noron-port.css">
     <style>
-
+    
     </style>
   </head>
   <body>
@@ -252,27 +252,30 @@
 
 <div class="noron-exercise">
   <div class="container exercise-title ">
-      <h1 class="font-size50px">Form</h1>
+      <h1 class="font-size50px">Send me a message!</h1>
   </div>
 
 <div class="container">
   <form class="" action="POST" method="post" data-netlify="true">
-    <div class="field">
-      <input type="text" name="name" id="name" value="" placeholder="Name">
-    </div> <br>
-    <div class="field">
-      <input type="email" name="email" id="email" value="" placeholder="Email">
-    </div> <br>
-    <div class="field">
-      <textarea name="name" rows="8" cols="80"></textarea>
-    </div> <br>
-    <div class="field">
-      <div class="" data-netlify-recaptcha="true">
+<div class="form-group">
+  <div class="field">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" name="name" id="name" value="" placeholder="Name" required>
+  </div> <br>
+  <div class="field">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" name="email" id="email" value="" placeholder="Email" required>
+  </div> <br>
+  <div class="field">
+    <textarea name="name" class="form-control" rows="8" cols="80" placeholder="Say something..." required></textarea>
+  </div> <br>
+  <div class="field">
+    <div class="" data-netlify-recaptcha="true">
 
-      </div>
     </div>
-
-    <input type="submit" name="submit" value="Send a message">
+  </div>
+  <input type="submit" name="submit" value="Send a message">
+</div>
   </form>
 </div>
 
